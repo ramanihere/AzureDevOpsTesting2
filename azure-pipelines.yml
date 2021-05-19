@@ -22,8 +22,6 @@ steps:
     mavenSetM2Home: false # Required when mavenVersionOption == Path
     mavenOptions: '-Xmx1024m' # Optional
     mavenAuthenticateFeed: false   
-    jdkVersionOption: '1.8'
-    jdkArchitectureOption: 'x64'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
